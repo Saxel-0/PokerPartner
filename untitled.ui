@@ -1,0 +1,1989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1121</width>
+    <height>732</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>120</y>
+      <width>611</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>70</y>
+       <width>71</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KH</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>70</y>
+       <width>71</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KH</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_3">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>70</y>
+       <width>71</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KH</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_4">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>70</y>
+       <width>71</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KH</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_5">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>70</y>
+       <width>71</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KH</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_6">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>350</y>
+       <width>91</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KH</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_7">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>350</y>
+       <width>91</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10S</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10C</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10D</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KD</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10H</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>JH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>QH</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KH</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>600</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Calculate</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1121</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
