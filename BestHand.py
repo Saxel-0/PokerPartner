@@ -845,15 +845,45 @@ class Ui_MainWindow(object):
 "</style></head><body style=\" font-family:\'Segoe UI\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Number of players in the hand</p></body></html>"))
 
-	def cardCreator(self, MainWindow):
+	def cardCreator(self):
+		#creates the list of the whole deck of cards
 		
 		self.suit = ["S","C","D","H"]
 		self.rank = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"]
 		self.card = []
 		
-		for x in suit:
-			for y in rank:
+		for x in self.suit:
+			for y in self.rank:
 				self.card.append((y,x))
 		
+	
+	def handCreator(self):
+		#sets up 2 lists, one for the player's hand and one for every other player
+		
+		self.playerHand = []
+		self.communityHand = []
+		
+		self.communityHand.append(self.card[self.comboBox.currentData()])
+		self.communityHand.append(self.card[self.comboBox_2.currentData()])
+		self.communityHand.append(self.card[self.comboBox_3.currentData()])
+		self.communityHand.append(self.card[self.comboBox_4.currentData()])
+		self.communityHand.append(self.card[self.comboBox_5.currentData()])
+		
+		self.playerHand.append(self.card[self.comboBox.currentData()])
+		self.playerHand.append(self.card[self.comboBox_2.currentData()])
+		self.playerHand.append(self.card[self.comboBox_3.currentData()])
+		self.playerHand.append(self.card[self.comboBox_4.currentData()])
+		self.playerHand.append(self.card[self.comboBox_5.currentData()])
+		self.playerHand.append(self.card[self.comboBox_6.currentData()])
+		self.playerHand.append(self.card[self.comboBox_7.currentData()])
+		
+	
+	def handRanker(curHand):
+		#Finds the basic rank of the hand (pair,straight,flush,etc.)
+		
+		
+		
+		for x in curHand:
+			
 		
 		
