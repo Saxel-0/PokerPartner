@@ -881,9 +881,49 @@ class Ui_MainWindow(object):
 	def handRanker(curHand):
 		#Finds the basic rank of the hand (pair,straight,flush,etc.)
 		
+	
+	def flushCheck (self,curHand): 
+		flush = False
+		suitCheck = []	
+	
+		for index, tuple in enumerate(curHand):
+			suitCheck.append(tuple[1])
+		
+		flush = all(ele == suitCheck[0] for ele in suitCheck)
+		
+		if(flush):
+			self.genRank = 5
+			return(self.genRank)
+		else:
+			return(self.genRank)
 		
 		
-		for x in curHand:
+	def straightCheck (self,curHand):
+		x = 0
+		y = 4
+		
+		strt = False
+		strtCheck = []
+		strtBase = self.Rank[x:y]
+		
+		for index, tuple in enumerate(curHand):
+			strtCheck.append(tuple[0])
+		
+		while y < len(strtCheck):
+			strt = bool(set(strtBase).intersection(strtCheck))
+			x += 1
+			y += 1
+		
+		if(strt):
+			if(self.genRank == 5):
+				self.genRank = 8
+				return(self.genRank)
+			else:
+				self.genRank = 4
+				return(self.genRank)
+		else:
+			return(self.genRank)
 			
+		
 		
 		
